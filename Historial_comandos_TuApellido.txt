@@ -1,0 +1,159 @@
+whoami
+pwd
+whoami
+pwd
+ssh-keygen -t ed25519
+$HOME
+clear
+ssh-keygen -t ed25519
+ls -a
+$HOME
+cat $HOME/.ssh/*.pub
+ls -l
+cd repogit
+ls -l
+clear
+ssh-keygen -t ed25519
+clear
+vagrant halt
+ssh-keygen -t ed25519
+ls -l
+find/ -name id_rsa 2>/dev/null
+ssh-keygen -t ed25519
+pwd
+ls -l
+ls -la
+cd .ssh
+ls -l
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd -ssh
+cd .ssh
+ls -l
+cat id_ed25519.pub
+ssh-keygen -t ed25519
+pwd
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:saulloza219-blip/TP_AySO_Sergio_Loza.git
+ls -l
+git clone git@github.com:saulloza219-blip/TP_AySO_Sergio_Loza.git
+ls -l
+git clone git@github.com:saulloza219-blip/TP_AySO_Sergio_Loza.git
+ls -la
+cd
+cat $HOME/.ssh/*.pub
+ls -l
+cd repogit
+ls -l
+git clone 
+git clone git@github.com:saulloza219-blip/TP_AySO_Sergio_Loza.git
+ls -l
+cd TP_AySO_Sergio_Loza/
+ls -l
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+grep <parámetro> Home_url /etc/os-release >
+datos_url.txt grep <parámetro> Home_url /etc/os-release >
+datos_url.txt 
+grep -i > Home_url /etc/os-release >
+datos_url.txt 
+grep -i Home_url /etc/os-release > datos_url.txt
+ls -l
+whoami
+id -un
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls -l
+cat datos_usuario.txt
+git add .
+git config --global user.email saulloza219@gmail.com
+git config --global user.name saulloza219-blip
+git config --global user.email "saulloza219@gmail.com"
+git config --global user.name "saulloza219-blip"
+git commit -m "ADD: agregado 1er
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo
+head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<EOF >> README.md
+Alumno: <Tu Nombre y Apellido>
+División: <Tu División>
+Turno: <Tu Turno (ej: Noche)>
+cat <<EOF >> README.md
+Alumno: Sergio Loza
+División: 114
+Turno: Mañana
+
+cat <<EOF >> README.md
+Alumno: <Tu Nombre y Apellido>
+División: <Tu División>
+Turno: <Tu Turno (ej: Noche)>
+cat <<EOF >> README.md
+Alumno: Sergio Loza
+División: 114
+Turno: Mañana
+
+
+
+
+exit
+ls -l
+ls -la
+cd repogit
+ls .l
+ls -l
+cd TP_AySO_Sergio_Loza/
+ls -l
+cat <<EOF >> README.md
+Alumno: Sergio Loza
+Division: 114
+Turno: Mañana
+EOF
+
+git add README.md
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+whoami
+ls -l
+cd
+whoami
+pwd
+mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+tree
+ls -R
+ls -l
+cd repogit
+ls -l
+cd TP_AySO_Sergio_Loza/
+pwd
+mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+tree
+ls -R material materia2
+ls -l
+rm -r material materia2
+ls -l
+cd
+ls -l
+cd repogit
+ls -l
+cd TP_AySO_Sergio_Loza/
+echo 'mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}' > script_dir.sh
+chmod +x script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+tree
+ls -R material materia2
+ls -l
+pwd
+history -a
